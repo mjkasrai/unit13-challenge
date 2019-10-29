@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "description": "Available portfolio risk levels",
+    "name": "riskLevel",
+    "version": "1",
+    "enumerationValues": [
+      {
+        "value": "High",
+        "synonyms": []
+      },
+      {
+        "value": "Very Low",
+        "synonyms": []
+      },
+      {
+        "value": "Low",
+        "synonyms": []
+      },
+      {
+        "value": "Medium",
+        "synonyms": []
+      },
+      {
+        "value": "Very High",
+        "synonyms": []
+      },
+      {
+        "value": "None",
+        "synonyms": [
+          "0"
+        ]
+      }
+    ],
+    "valueSelectionStrategy": "TOP_RESOLUTION"
+  }
+}
